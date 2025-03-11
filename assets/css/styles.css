@@ -296,10 +296,10 @@ img{
 
 .about__img {
   width: 100%;
-  max-width: 280px; /* Adjust as needed */
+  max-width: 450px; /* Pwede mong taasan ito kung gusto mo pang mas malaki */
   aspect-ratio: 16 / 9;
   border-radius: .5rem;
-  object-fit: cover; /* Para hindi ma-distort ang image */
+  object-fit: cover;
   justify-self: center;
 }
 
