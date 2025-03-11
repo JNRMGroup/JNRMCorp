@@ -296,12 +296,11 @@ img{
 
 .about__img {
   width: 100%;
-  max-width: 750px; /* Palakihin pa lalo */
-  height: 100%; /* Punuin ang container */
+  max-width: 450px; /* Pwede mong taasan ito kung gusto mo pang mas malaki */
   aspect-ratio: 16 / 9;
   border-radius: .5rem;
   object-fit: cover;
-  align-self: stretch; /* Para tumangkad at sumunod sa height ng katabing text */
+  justify-self: center;
 }
 
 /*========== SERVICES ==========*/
