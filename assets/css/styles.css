@@ -620,3 +620,16 @@ img{
 .search-container.active #search-icon {
   transform: translateX(160px) rotate(360deg);
 }
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espasyo sa pagitan ng logo at text */
+  text-decoration: none;
+  color: inherit; /* Para di magbago ang kulay */
+}
+
+.nav__logo-img {
+  width: 40px; /* Palitan mo kung gusto mong mas malaki/maliit */
+  height: auto;
+}
