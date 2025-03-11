@@ -635,22 +635,13 @@ img{
 }
 
 .video-container {
-  width: 100%;
-  max-width: 800px; /* Mas malaki */
-  margin: 0 auto;
+    width: 100%;
+    max-width: 800px; /* Mas malaki */
+    margin: 0 auto;
 }
 
 .video-container iframe {
-  width: 100%;
-  height: 450px; /* Mas mataas para hindi mukhang compressed */
-  border-radius: 10px; /* Para may kaunting curve sa gilid */
+    width: 100%;
+    height: 450px; /* Mas mataas para hindi mukhang compressed */
+    border-radius: 10px; /* Para may kaunting curve sa gilid */
 }
-
-/* Adjust size for larger screens */
-@media (min-width: 768px) {
-  .video-container {
-      max-width: 700px;
-      margin: 0 auto;
-  }
-}
-
