@@ -296,11 +296,13 @@ img{
 
 .about__img {
   width: 100%;
-  max-width: 450px; /* Pwede mong taasan ito kung gusto mo pang mas malaki */
+  max-width: 600px; /* Mas malaki para mas pantay sa text */
+  height: auto;
   aspect-ratio: 16 / 9;
   border-radius: .5rem;
   object-fit: cover;
-  justify-self: center;
+  display: block;
+  margin: 0 auto; /* Para naka-center */
 }
 
 /*========== SERVICES ==========*/
