@@ -294,9 +294,12 @@ img{
   margin-bottom: var(--mb-3);
 }
 
-.about__img{
-  width: 280px;
+.about__img {
+  width: 100%;
+  max-width: 280px; /* Adjust as needed */
+  aspect-ratio: 16 / 9;
   border-radius: .5rem;
+  object-fit: cover; /* Para hindi ma-distort ang image */
   justify-self: center;
 }
 
