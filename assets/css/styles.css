@@ -677,41 +677,6 @@ iframe {
   }
 }
 
-.search-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  transition: width 0.3s ease-in-out;
-  overflow: hidden;
-}
-
-.search-container.active {
-  width: 200px;
-}
-
-.search-input {
-  border: none;
-  outline: none;
-  padding: 5px;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.search-container.active .search-input {
-  opacity: 1;
-}
-
-#search-icon {
-  transition: transform 0.3s ease-in-out;
-}
-
-.search-container.active #search-icon {
-  transform: translateX(160px) rotate(360deg);
-}
-
 .nav__logo {
   display: flex;
   align-items: center;
@@ -723,27 +688,5 @@ iframe {
 .nav__logo-img {
   width: 40px; /* Palitan mo kung gusto mong mas malaki/maliit */
   height: auto;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  max-width: 800px; /* Adjust kung gusto mong mas malaki o mas maliit */
-  margin: 0 auto;
-}
-
-.video-container::before {
-  content: "";
-  display: block;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px; /* Optional: Para sa rounded corners */
 }
 
