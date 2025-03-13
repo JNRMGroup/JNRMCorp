@@ -386,19 +386,19 @@ img{
   padding: 0 1.5rem;
 }
 
-.services__button-container {
+.buttongroup {
   margin-top: 2rem;
   text-align: center;
 }
 
-.services__button-container .btn {
+.buttongroup .btn {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   border-radius: 5px;
   transition: 0.3s;
 }
 
-.services__button-container .btn:hover {
+.buttongroup .btn:hover {
   background-color: #218838;
   color: #fff;
 }
