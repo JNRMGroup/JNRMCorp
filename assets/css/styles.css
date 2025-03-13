@@ -273,24 +273,48 @@ img{
 
 .home__buttons {
   display: flex;
-  flex-wrap: wrap; /* Para mag-stack sa maliit na screen */
-  gap: 10px;
-  justify-content: center; /* Center-align ang buttons */
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #4CAF50;
-  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s;
+  border-radius: 30px;
+  transition: all 0.3s ease;
 }
 
-.button:hover {
-  background-color: #45a049;
+.button i {
+  font-size: 18px;
+}
+
+.button-primary {
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+
+.button-primary:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+.button-secondary {
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
+
+.button-secondary:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -300,8 +324,8 @@ img{
   }
 
   .button {
-      width: 100%; /* Para full-width sa mobile */
-      max-width: 300px; /* Limit sa mas malalaking screen */
+      width: 100%;
+      max-width: 300px;
   }
 }
 
