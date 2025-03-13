@@ -463,11 +463,6 @@ img{
   margin-bottom: var(--mb-3);
 }
 
-.contact {
-  text-align: center;
-  margin: 2rem 0;
-}
-
 .contact__button .btn-success {
     width: 100%;
     padding: 12px;
