@@ -540,8 +540,7 @@ label i {
 .modal-body h4,
 .modal-body label,
 .modal-body input,
-.modal-body textarea,
-.modal-body button {
+.modal-body textarea{
   color: #333;
 }
 
