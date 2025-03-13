@@ -371,9 +371,9 @@ img{
   height: 64px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
-  border-radius: 50%; /* Para maging bilog */
-  object-fit: cover;  /* Para hindi mag-stretch ang image */
-  border: 2px solid #198754; /* Green border (Bootstrap success color) */
+  border-radius: 50% !important; /* Para sigurado */
+  object-fit: cover !important;  /* Para sure na sakto */
+  border: 2px solid #198754 !important; /* Green border */
 }
 
 .services__title{
