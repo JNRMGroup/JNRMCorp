@@ -534,7 +534,7 @@ img{
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
   }
-  .contact__button{
+  .contact__card{
     justify-self: center;
   }
 }
