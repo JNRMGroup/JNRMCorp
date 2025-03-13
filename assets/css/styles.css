@@ -256,13 +256,13 @@ img{
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 100%; /* Position it directly below the parent */
   left: 0;
   background-color: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   min-width: 160px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -279,13 +279,6 @@ img{
 
 .dropdown-item:hover {
   background-color: #f0f0f0;
-}
-
-/* Icon Style for Dropdown */
-.dropdown-toggle {
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }
 
 /* Responsive Dropdown for Mobile */
