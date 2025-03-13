@@ -419,11 +419,15 @@ img{
   padding: .75rem;
 }
 
-.menu__img{
-  width: 100px;
-  align-self: center;
-  margin-bottom: var(--mb-2);
+.menu__img {
+    width: 100%; /* Gawin full width ang image */
+    height: 150px; /* Adjust para hindi sobrang laki */
+    object-fit: cover; /* Para buo at walang putol ang image */
+    align-self: center;
+    margin-bottom: var(--mb-2);
+    border-radius: 0; /* Tanggalin ang rounded corners */
 }
+
 
 .menu__name, .menu__preci{
   font-weight: var(--font-semi-bold);
