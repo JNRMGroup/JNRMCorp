@@ -366,11 +366,14 @@ img{
   text-align: center;
 }
 
-.services__img{
+.services__img {
   width: 64px;
   height: 64px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
+  border-radius: 50%; /* Para maging bilog */
+  object-fit: cover;  /* Para hindi mag-stretch ang image */
+  border: 2px solid #198754; /* Green border (Bootstrap success color) */
 }
 
 .services__title{
