@@ -463,59 +463,6 @@ img{
   margin-bottom: var(--mb-3);
 }
 
-.contact__map iframe {
-  border: 0;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.contact__card {
-  max-width: 450px;
-  margin: auto;
-  padding: 20px;
-  background-color: #4a4a4adf;
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-.contact__card h4 {
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.form-group {
-  margin-bottom: 12px;
-}
-
-.form-group label {
-  font-weight: 600;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input, .form-group textarea {
-  width: 100%;
-  padding: 8px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  margin-top: 5px;
-}
-
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  background-color: green;
-  color: white;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: darkgreen;
-}
-
 /*========== FOOTER ==========*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -587,7 +534,7 @@ button[type="submit"]:hover {
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
   }
-  .contact__card{
+  .contact__button{
     justify-self: center;
   }
 }
