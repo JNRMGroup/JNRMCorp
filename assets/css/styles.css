@@ -292,7 +292,7 @@ img{
   .dropdown-item {
       padding: 10px 20px;
       background-color: transparent;
-      color: #fff;
+      color: #333;
   }
 
   .dropdown-item:hover {
