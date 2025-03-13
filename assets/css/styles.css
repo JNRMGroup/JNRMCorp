@@ -423,10 +423,10 @@ img{
   width: 100px;
   align-self: center;
   margin-bottom: var(--mb-2);
-  height: 150px; /* Para mas buo at proportion yung image */
-  object-fit: cover; /* Para puno yung image sa container */
-  border-radius: 0; /* Para wala talagang bilog */
-}
+  height: 150px !important; /* Para mas buo at proportion yung image */
+  object-fit: cover !important; /* Para puno yung image sa container */
+  border-radius: 10px !important; /* Para wala talagang bilog */
+} 
 
 .menu__name, .menu__preci{
   font-weight: var(--font-semi-bold);
