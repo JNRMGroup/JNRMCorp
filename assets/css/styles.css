@@ -479,8 +479,12 @@ label i {
     margin-right: 8px;
 }
 
-.btn-success i {
-    margin-right: 5px;
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.btn-success {
+  float: right;
 }
 
 .form-label {
