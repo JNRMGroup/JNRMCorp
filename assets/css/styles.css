@@ -109,7 +109,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .section-title, .section-subtitle{
@@ -291,7 +291,7 @@ img{
 }
 
 .about__description{
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-3);
 }
 
 .about__img {
