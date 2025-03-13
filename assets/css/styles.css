@@ -516,7 +516,7 @@ img {
 }
 
 .modal-title i,
-h4 i,
+h4 i, h5, p,
 label i {
   color: #333;
   margin-right: 8px;
