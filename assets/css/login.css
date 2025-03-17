@@ -269,6 +269,30 @@ form.sign-in-form {
     flex: 1; /* Make them equal width */
 }
 
+/* BACK BUTTON */
+.back-btn {
+    width: 100%;
+    height: 45px; /* Pinaliit mula 50px */
+    border: none;
+    outline: none;
+    border-radius: 40px; /* Pinaliit din ang curve */
+    background-color: #32a852;
+    color: #fff;
+    font-size: .8rem; /* Medyo pinaliit ang font */
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.4rem 0; /* Medyo pinaliit ang margin */
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #28a745;
+}
+
+.back-btn i {
+    margin-right: 0.4rem;
+}
+
 
 /* ANIMATION */
 
@@ -313,7 +337,7 @@ form.sign-in-form {
 
 @media (max-width: 870px) {
     .container {
-        min-height: 950px;
+        min-height: 1050px;
         height: 100vh;
     }
 
