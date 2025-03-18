@@ -649,9 +649,19 @@ img {
   flex: 1;
 }
 .catalog__video {
-  flex: 1;
-  max-width: 560px;
+  width: 100%;
+  max-width: 560px; /* Adjust as needed */
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px; /* Optional: Rounded corners */
 }
+
+.catalog__video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .catalog__description {
   margin: 1rem 0;
   font-size: 1rem;
