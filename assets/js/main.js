@@ -106,4 +106,12 @@ sr.reveal(`.home__data, .home__img,
     interval: 200
 })
 
+/*==================== FOOD SOLUTION ====================*/
+var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+    initialCountry: "ph", // Default country
+    preferredCountries: ["ph", "us", "gb"], // Preferred countries
+    separateDialCode: true, // Show separate country code
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // Required for formatting
+});
 

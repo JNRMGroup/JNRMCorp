@@ -634,6 +634,107 @@ img {
   border-radius: .5rem 0 .5rem 0;
 }
 
+/*========== CATALOUGE ==========*/
+.catalog {
+  padding: 2rem 0;
+}
+.catalog__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.catalog__text {
+  flex: 1;
+}
+.catalog__video {
+  flex: 1;
+  max-width: 560px;
+}
+.catalog__description {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .catalog__container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .catalog__video {
+      width: 100%;
+  }
+}
+
+/*========== FOOD SOLUTION ==========*/
+.food-solution__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.food-solution__actions a {
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.food-solution__actions .solid {
+  background-color: #198754; /* Green background */
+  color: white;
+}
+
+.food-solution__actions .solid:hover {
+  background-color: #14532d;
+}
+
+.food-solution__actions .outline {
+  background-color: transparent;
+  border: 2px solid #198754;
+  color: #198754;
+}
+
+.food-solution__actions .outline:hover {
+  background-color: #14532d;
+  color: white;
+}
+
+.food-solution__data {
+  flex: 1;
+  min-width: 300px;
+}
+
+.food-solution__img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 280px;
+}
+
+.food-solution__actions {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .food-solution__container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .food-solution__img {
+      margin-top: 1.5rem;
+  }
+}
+
 /*========== APP ==========*/
 .app__data {
   text-align: center;

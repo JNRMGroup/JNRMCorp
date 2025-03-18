@@ -13,6 +13,7 @@
 
     <!--========== CSS ==========-->
     <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -46,7 +47,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#products" class="dropdown-item">Products</a></li>
                             <li><a href="#catalogues" class="dropdown-item">Catalogues</a></li>
-                            <li><a href="#food-solution" class="dropdown-item">Food Solution</a></li>
+                            <li><a href="#food" class="dropdown-item">Food Solution</a></li>
                         </ul>
                     </li>
 
@@ -111,35 +112,42 @@
         <section class="services section bd-container" id="services">
             <span class="section-subtitle">Our Companies</span>
             <h2 class="section-title">Our amazing groups</h2>
-        
+
             <div class="services__container bd-grid">
                 <div class="services__content">
-                    <img class="services__img border border-success" src="assets/img/groups/gl.jpg" alt="Green Leaves Logo">
+                    <img class="services__img border border-success" src="assets/img/groups/gl.jpg"
+                        alt="Green Leaves Logo">
                     <h3 class="services__title">Green Leaves Food</h3>
-                    <p class="services__description">Specializing in Certified Food Flavor Essences, Food Colorants, Instant Powder Mixes,
+                    <p class="services__description">Specializing in Certified Food Flavor Essences, Food Colorants,
+                        Instant Powder Mixes,
                         and a Variety of Herbs and Spices.</p>
                 </div>
-        
+
                 <div class="services__content">
-                    <img class="services__img border border-success" src="assets/img/groups/gl2.jpg" alt="Green Leaves Logo">
+                    <img class="services__img border border-success" src="assets/img/groups/gl2.jpg"
+                        alt="Green Leaves Logo">
                     <h3 class="services__title">Wellness Naturale' Corporation</h3>
-                    <p class="services__description">Crafting high-quality herbal soaps, shampoos, and lotions made from natural ingredients,
+                    <p class="services__description">Crafting high-quality herbal soaps, shampoos, and lotions made from
+                        natural ingredients,
                         along with food-grade cosmetics.</p>
                 </div>
-        
+
                 <div class="services__content">
-                    <img class="services__img border border-success" src="assets/img/groups/gl3.jpg" alt="Green Leaves Logo">
+                    <img class="services__img border border-success" src="assets/img/groups/gl3.jpg"
+                        alt="Green Leaves Logo">
                     <h3 class="services__title">Clouded Group</h3>
-                    <p class="services__description">Clouded Philippines is offering a wide range of flavors that cater to diverse tastes.</p>
+                    <p class="services__description">Clouded Philippines is offering a wide range of flavors that cater
+                        to diverse tastes.</p>
                 </div>
             </div>
-        
+
             <!-- Button for Other Groups -->
             <div class="services__content buttongroup text-center">
-                <a href="pages/group.html" class="btn btn-success d-block d-md-inline-block mx-auto">See Other Groups</a>
+                <a href="pages/group.html" class="button">See Other
+                    Groups</a>
             </div>
-            
-        </section>        
+
+        </section>
 
         <!--========== MENU ==========-->
         <section class="menu section bd-container" id="products">
@@ -148,7 +156,7 @@
 
             <div class="menu__container bd-grid">
                 <div class="menu__content">
-                    <img src="assets/img/products/b1.jpg" alt="" class="menu__img">
+                    <img src="assets/img/products/Black.jpg" alt="" class="menu__img">
                     <h3 class="menu__name"> Green Leaves Liquid Food Color</h3>
                     <span class="menu__detail">30ML - 1Gallon</span>
                     <span class="menu__preci">$45.00</span>
@@ -180,12 +188,165 @@
             </div>
             <!-- Button for Other Groups -->
             <div class="services__content buttongroup text-center">
-                <a href="pages/product.html" class="btn btn-success d-block d-md-inline-block mx-auto">See Other Products</a>
+                <a href="pages/product.html" class="button">
+                    <i class="fas fa-box-open"></i> See Other Products
+                </a>
+
+            </div>
+        </section>
+
+        <!--===== CATALOGUE =======-->
+        <section class="catalog section bd-container" id="catalogues">
+            <div class="catalog__container bd-grid">
+                <div class="catalog__video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
+                        title="Green Leaves Kutsinta Instant Mix" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="catalog__text">
+                    <h2 class="section-title">Explore Our Product Catalog</h2>
+                    <p class="catalog__description">
+                        Explore the full range of our premium products, including our Food Flavor Essences, directly
+                        from the Green Leaves Food Product Catalog below. You can also download the catalog for offline
+                        use.
+                    </p>
+                    <div class="catalog__actions">
+                        <a href="#" class="button" data-bs-toggle="modal" data-bs-target="#productCatalogModal">
+                            <i class="fas fa-book"></i> Product Catalog
+                        </a>
+                        <a href="assets/pdf/JNRM_GROUP_PRODUCT_CATALOG_24RRR.pdf" download class="button">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="productCatalogModal" tabindex="-1" aria-labelledby="productCatalogModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productCatalogModalLabel">Product Catalog</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center" style="padding: 1rem;">
+                            <iframe src="assets/pdf/JNRM_GROUP_PRODUCT_CATALOG_24RRR.pdf"
+                                style="width: 100%; height: 70vh; border: none;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== FOOD SOLUTION =======-->
+        <section class="food-solution section bd-container" id="food">
+            <div class="food-solution__container bd-grid">
+                <div class="food-solution__data app__data">
+                    <span class="section-subtitle food-solution__initial">Food Solution</span>
+                    <h2 class="section-title food-solution__initial app__initial">Quality Food Solutions for Your
+                        Business</h2>
+                    <p class="food-solution__description app__description">
+                        Discover our innovative food solutions designed to enhance quality, safety, and consistency.
+                        From product development to food safety management, we are committed to delivering client
+                        satisfaction.
+                    </p>
+                    <div class="food-solution__actions">
+                        <a href="pages/food.html" class="button">Explore More</a>
+                        <a href="#" class="button" data-bs-toggle="modal" data-bs-target="#foodForm">Get Started</a>
+                    </div>
+                </div>
+
+                <img src="assets/img/food/food10.jpg" alt="Food Solution" class="food-solution__img">
+            </div>
+
+            <div class="modal fade" id="foodForm" tabindex="-1" aria-labelledby="foodSolutionModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content p-4 rounded-4 shadow-lg">
+                        <div class="modal-header border-0">
+                            <h4 class="modal-title fw-bold text-success" id="foodSolutionModalLabel">
+                                <i class="fas fa-seedling"></i> Start Your Food Solution Project
+                            </h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-muted">Let’s bring your food ideas to life! Fill out the form
+                                below and our team will get in touch with you.</p>
+
+                            <form>
+                                <div class="row g-3">
+                                    <!-- First Name -->
+                                    <div class="col-md-6">
+                                        <label class="fw-semibold">First Name</label>
+                                        <input type="text" class="form-control rounded-3" placeholder="Enter first name"
+                                            required>
+                                    </div>
+                                    <!-- Last Name -->
+                                    <div class="col-md-6">
+                                        <label class="fw-semibold">Last Name</label>
+                                        <input type="text" class="form-control rounded-3" placeholder="Enter last name"
+                                            required>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="col-md-6">
+                                        <label class="fw-semibold">Email</label>
+                                        <input type="email" class="form-control rounded-3"
+                                            placeholder="Enter your email" required>
+                                    </div>
+
+                                    <!-- International Phone Number -->
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <label class="fw-semibold">Phone Number</label>
+                                        <input type="tel" id="phone" class="form-control rounded-3"
+                                            placeholder="Enter your phone number" required>
+                                    </div>
+
+                                    <!-- Food Project Description -->
+                                    <div class="col-md-12">
+                                        <label class="fw-semibold">Tell us about your food project</label>
+                                        <textarea class="form-control rounded-3" rows="3"
+                                            placeholder="Describe your project"></textarea>
+                                    </div>
+
+                                    <!-- Benchmark Product Upload -->
+                                    <div class="col-md-12">
+                                        <label class="fw-semibold">Have any benchmark product to
+                                            show?</label>
+                                        <input type="file" class="form-control rounded-3">
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-success w-100 fw-semibold rounded-3">
+                                            <i class="fas fa-paper-plane"></i> Submit Request
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- Disclaimer Text -->
+                            <div class="text-center text-muted small mt-3">
+                                <p class="mb-0">
+                                    By signing up, you agree to receive marketing messages at the phone
+                                    number or email provided.
+                                    Msg and data rates may apply. View our
+                                    <a href="#" class="text-success fw-semibold">privacy policy</a> and
+                                    <a href="#" class="text-success fw-semibold">terms of service</a> for
+                                    more info.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!--===== APP =======-->
-        <section class="app section bd-container">
+        <!-- <section class="app section bd-container">
             <div class="app__container bd-grid">
                 <div class="app__data">
                     <span class="section-subtitle app__initial">App</span>
@@ -200,7 +361,7 @@
 
                 <img src="assets/img/movil-app.png" alt="" class="app__img">
             </div>
-        </section>
+        </section> -->
 
         <!--========== CONTACT US ==========-->
         <section class="contact section bd-container" id="contact">
@@ -214,9 +375,9 @@
 
                 <!-- Button to Open Modal -->
                 <div class="contact__button">
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal">
-                        Contact us now!
-                    </button>
+                    <a href="#" class="button" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        <i class="fas fa-shopping-bag"></i> Contact Us Now!
+                    </a>
                 </div>
             </div>
         </section>
@@ -238,7 +399,8 @@
                                 <h4><i class="fas fa-map-marker-alt"></i> Our Location</h4>
                                 <p>Visit us at our main office or get in touch through the form for inquiries and
                                     assistance.</p>
-                                <p><strong>Address:</strong> Green Leaves | JNRM Corporation, B3 L5 Grand Industrial
+                                <p class="mb-3"><strong>Address:</strong> Green Leaves | JNRM Corporation, B3 L5 Grand
+                                    Industrial
                                     Estate, Parulan, Plaridel, Bulacan, Philippines</p>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.9071194345106!2d120.8749235760695!3d14.886471170011928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339654bcbfcab309%3A0xc44f7af9b036802c!2sGreen%20Leaves%20%7C%20JNRM%20Corporation!5e0!3m2!1sen!2sph!4v1739469975835!5m2!1sen!2sph"
@@ -250,25 +412,25 @@
                                 <h4><i class="fas fa-paper-plane"></i> Send Us a Message</h4>
                                 <form>
                                     <div class="mb-3">
-                                        <label for="name" class="form-label"><i class="fas fa-user"></i> Your
+                                        <label for="name" class="form-label"><i class="fas fa-user"></i>
                                             Name:</label>
                                         <input type="text" class="form-control" id="name" placeholder="John Doe"
                                             required>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="email" class="form-label"><i class="fas fa-envelope"></i> Your
+                                        <label for="email" class="form-label"><i class="fas fa-envelope"></i>
                                             Email:</label>
                                         <input type="email" class="form-control" id="email"
                                             placeholder="example@gmail.com" required>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="phone" class="form-label"><i class="fas fa-phone"></i> Your
-                                            Phone:</label>
+                                        <label for="phone" class="form-label"><i class="fas fa-phone"></i>
+                                            Phone Number:</label>
                                         <input type="text" class="form-control" id="phone"
                                             placeholder="+63 987 654 3210" required>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="message" class="form-label"><i class="fas fa-comment-dots"></i> Your
+                                        <label for="message" class="form-label"><i class="fas fa-comment-dots"></i>
                                             Message:</label>
                                         <textarea class="form-control" id="message" rows="4"
                                             placeholder="Type your message here..." required></textarea>
@@ -349,6 +511,7 @@
 
     <!--========== MAIN JS ==========-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
