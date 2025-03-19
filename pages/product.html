@@ -175,36 +175,56 @@
             </div>
         </section> -->
 
+        <!--========== FEATURES ==========-->
+        <!-- <section class="menu section bd-container app__data">
+            <div class="features-section p-3 mb-3 rounded shadow d-flex justify-content-around align-items-center flex-wrap gap-3">
+                <div class="text-center">
+                    <i class="fas fa-award fa-2x text-warning"></i>
+                    <p>High Quality</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-seedling fa-2x text-success"></i>
+                    <p>Organic Ingredients</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-heart fa-2x text-danger"></i>
+                    <p>Healthy Choice</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-flask fa-2x text-primary"></i>
+                    <p>No Additives</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-cookie-bite fa-2x text-info"></i>
+                    <p>Baking Friendly</p>
+                </div>
+            </div>   
+        </section> -->
+
+
         <!--========== MENU ==========-->
         <section class="menu section bd-container" id="products">
-            <span class="section-subtitle">Our Products</span>
-            <h2 class="section-title">Explore Our Exclusive Product Collection</h2>
+            <span class="section-subtitle app__data">Our Products</span>
+            <h2 class="section-title app__data">Explore Our Exclusive Product Collection</h2>
 
             <!-- Filter Bar sa Itaas -->
             <div
-                class="filter-bar bg-light p-3 rounded mb-4 d-flex flex-wrap justify-content-between align-items-center">
-                <input type="text" placeholder="Search products..." class="form-control mb-2 me-2 flex-grow-1"
-                    style="max-width: 250px;">
-
+                class="filter-bar p-3 rounded shadow mb-4 d-flex flex-wrap justify-content-between align-items-center app__data">
                 <div class="d-flex align-items-center mb-2">
                     <label for="price" class="me-2">Price Range:</label>
                     <input type="number" placeholder="Min" class="form-control me-1" style="width: 80px;">
                     <span class="me-1">-</span>
                     <input type="number" placeholder="Max" class="form-control me-3" style="width: 80px;">
-
-                    <label for="category" class="me-2">Category:</label>
-                    <select id="category" class="form-select" style="width: 150px;">
-                        <option value="all">All</option>
-                        <option value="liquid">Liquid</option>
-                        <option value="powder">Powder</option>
-                        <option value="essence">Essence</option>
-                        <option value="salad">Salad</option>
-                    </select>
                 </div>
+                <div class="position-relative" style="max-width: 250px;">
+                    <input type="text" placeholder="Search products..." class="form-control pe-5">
+                    <i class="bx bx-search position-absolute top-50 end-0 translate-middle-y me-2"></i>
+                </div>
+
             </div>
 
             <!-- Category Buttons -->
-            <div class="category-buttons d-flex flex-wrap gap-2 mb-3">
+            <div class="category-buttons d-flex flex-wrap gap-2 mb-3 app__data">
                 <button class="btn btn-success">All</button>
                 <button class="btn btn-success">Liquid Food Color</button>
                 <button class="btn btn-success">Food Powder</button>

@@ -636,6 +636,16 @@ img {
   border-radius: .5rem 0 .5rem 0;
 }
 
+.features-section{
+  background-color: var(--container-color);
+  box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
+}
+
+.filter-bar{
+  background-color: var(--container-color);
+  box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
+}
+
 .category-buttons button {
   margin: 2px;
   padding: 8px 12px;
